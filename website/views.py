@@ -5,7 +5,7 @@ from grandeurs.models import Grandeur
 
 
 def home_view(request):
-    context = {'nbr_grandeurs': Grandeur.objects.count()}
+    context = {'grandeurs': Grandeur.objects.all()}
     return render(request, "website/home.html", context = context)
 
 

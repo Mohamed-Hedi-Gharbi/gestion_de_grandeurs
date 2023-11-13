@@ -4,7 +4,17 @@
 
 {% block content %}
 
-    <h2>Welcome to the grandeur planner</h2>
-    <p>there are currently {{nbr_grandeurs}} grandeur</p>
+    <h2>Grandeurs</h2>
+    <ul>
+        {% for grandeur in grandeurs %}
+        <li>
+            <a href="{% url 'detail' grandeur.id %}">
+                {{grandeur.title}}
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+
+    <a href="{% url 'rooms' %}">Grandeurs List</a>
 
 {% endblock %}
