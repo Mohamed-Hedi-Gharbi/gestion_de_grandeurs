@@ -9,12 +9,13 @@
         {% for grandeur in grandeurs %}
         <li>
             <a href="{% url 'detail' grandeur.id %}">
-                {{grandeur.title}}
+                {{grandeur.nom}}
             </a>
         </li>
         {% endfor %}
     </ul>
 
-    <a href="{% url 'rooms' %}">Grandeurs List</a>
+
+    <a href="{% url 'grandeurs' %}">Grandeurs List</a>
 
 {% endblock %}

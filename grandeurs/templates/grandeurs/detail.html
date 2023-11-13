@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+
+{% block title %} Grandeur: {{grandeur.nom}} {% endblock %}
+
+{% block content %}
+
+
+    <h1> {{grandeur.nom}} </h1>
+
+    <p>
+        Grandeur {{grandeur.nom}}, Unit: {{grandeur.unite}} et valeurs entre 
+        {{grandeur.valeurMin}} et {{grandeur.valeurMax}}
+    </p>
+
+
+    <a href="{% url 'home'%}"> Home </a>
+
+
+
+
+
+{% endblock %}

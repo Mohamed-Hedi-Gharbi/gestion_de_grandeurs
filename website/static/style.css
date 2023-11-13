@@ -4,3 +4,34 @@ body {
     background-color: floralwhite;
     text-align: center;
 }
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #3366bb; 
+}
+
+ul li a:hover {
+    text-decoration: underline; 
+}
+
+
+a {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #ff6600; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
