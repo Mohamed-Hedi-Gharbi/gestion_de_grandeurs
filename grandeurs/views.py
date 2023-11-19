@@ -23,4 +23,5 @@ def new(request):
             form = GrandeurForm()
 
         return render(request, 'grandeurs/new.html', {'form' : form})
+    
     return render(request, 'grandeurs/new.html')

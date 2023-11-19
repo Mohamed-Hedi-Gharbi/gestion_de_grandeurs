@@ -1,0 +1,43 @@
+/* Container styles */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Form styles */
+.form {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Table styles */
+.form-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.form-table th, .form-table td {
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    text-align: center;
+}
+
+
+.btn {
+    background-color: #3498db;
+    color: #ffffff;
+    padding: 5px 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 30px;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
